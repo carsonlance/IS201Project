@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(4, 4, 96);
+    background-color: ivory;
+}
+li {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    /* color: maroon; */
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+   /* font-weight: bold;
+    font-size: large; */
+}
+/*a:visited{
+    color: blue;*/
+}
+.resumeListHeading{
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {
+    text-decoration: underline;
+}
+.justify{
+    text-align: justify;
+}
+.homebg{
+    background-image: url(../html/Kylie\ Skiing.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bold{
+    font-weight: bold;
+}
+
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 50px;
+    /*this code works too: border: 1px solid white; */
+}
+.box2{
+border: 1px;
+/*you don't need these other boxes*/
+}
+.box3{
+border: 1px;
+}
+.proLink {
+    font-weight: bold;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
